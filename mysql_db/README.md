@@ -38,13 +38,22 @@ Esto abre un entorno que contiene:
 
 una vez dentro de Nix:
 
+### usando raw queries
 ```sh
-v run mysql_demo.v
+$ v run mysql_demo.v
 ```
 
+### usando orm de V
 ```sh
 # requerda crear el archivo `.env` antes
-v run mysql_orm.v
+$ v run mysql_orm.v
+```
+
+### pool de conexiones
+```sh
+# requerda crear el archivo `.env` antes
+$ v mysql_orm.v -d fpool -o mysql_orm
+$ ./mysql_orm
 ```
 
 
@@ -65,6 +74,24 @@ el ejecutable generado necesita estas librerias, en la misma carpeta
 - vcruntime140.dll
 
 adicionalmente puede requerir [Microsoft Visual C++ 2015 - 2022 Redistributable](https://learn.microsoft.com/en-us/answers/questions/4269238/vcruntime140-dll-and-msvcp140-dll-missing-in-windo)
+
+### usando raw queries
+```sh
+$ v.exe run mysql_demo.v
+```
+
+### usando orm de V
+```sh
+# requerda crear el archivo `.env` antes
+$ v.exe run mysql_orm.v
+```
+
+### pool de conexiones
+```sh
+# requerda crear el archivo `.env` antes
+$ v.exe mysql_orm.v -d fpool -o mysql_orm
+$ ./mysql_orm.exe
+```
 
 
 ## variables de conexion
