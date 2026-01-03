@@ -76,3 +76,4 @@ bin/
 .env
 *.js
 *.iml
+flake.lock

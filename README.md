@@ -5,7 +5,7 @@ A pure [V](https://vlang.io/) exercises.
 
 ## Requirements
 
- - [V lang](https://vlang.io/) **0.5.0** and above
+ - [V lang](https://vlang.io/) **V 0.5.0 e2f5d6c** and above
 
 
 ## Getting Started
@@ -13,7 +13,7 @@ A pure [V](https://vlang.io/) exercises.
 ### Clone the repo and make it yours:
 
 ```bash
-$ git clone git@github.com:HomeInside/vlang-exercises.git
+$ git clone git@github.com:diniremix/v-examples.git
 ```
 
 
