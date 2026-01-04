@@ -23,4 +23,13 @@ fn main() {
 	for line in lines {
 		println(line)
 	}
+
+	println('')
+	println('=========')
+	println('')
+
+	line_split := contents.split_into_lines()
+	for line in line_split {
+		println(line)
+	}
 }
