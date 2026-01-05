@@ -1,5 +1,7 @@
 # V lang exercises
 
+[V](https://vlang.io/) is a statically typed compiled programming language designed for building maintainable software.
+
 A pure [V](https://vlang.io/) exercises.
 
 
