@@ -2,8 +2,7 @@
 
 [V](https://vlang.io/) is a statically typed compiled programming language designed for building maintainable software.
 
-A pure [V](https://vlang.io/) exercises.
-
+Simple exercises for learning [V](https://vlang.io/).
 
 ## Requirements
 
@@ -31,6 +30,16 @@ $ v fmt -w .
 ```bash
 $ v run NAME_EXAMPLE.v
 ```
+
+
+## Thanks
+
+- https://docs.vlang.io/
+- https://modules.vlang.io/
+- https://github.com/vlang/V/tree/master/examples
+- https://play.vlang.io/
+- https://github.com/vlang/awesome-v
+- https://www.reddit.com/r/vlang/
 
 
 ## License

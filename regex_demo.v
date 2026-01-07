@@ -1,5 +1,5 @@
 // regex usando pcre
-// `v instal pcre`
+// `v install pcre`
 // - https://regex101.com/
 // - https://modules.vlang.io/regex.html
 module main
