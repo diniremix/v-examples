@@ -25,8 +25,8 @@ import math
 
 @[export: 'haversine']
 fn haversine(orig []f64, dest []f64, type_measure string) f64 {
-	radius := f64(6371) // R
-	rad := math.pi / f64(180) // RAD
+	radius := f64(6371) // RADIUS
+	rad := math.pi / f64(180) // RADIANS
 	second := f64(2) // SECOND
 	orig_lat := orig[0]
 	orig_lon := orig[1]
@@ -49,17 +49,10 @@ fn haversine(orig []f64, dest []f64, type_measure string) f64 {
 	if type_measure == 'kms' {
 		println('type_measure results in kms!')
 
-		// return d
 		return '${d:.3f}'.f64()
 	} else {
 		println('type_measure results in meters')
 
-		// format!("{:.3}", d * 1000f64).parse().unwrap()
-		//
-		// return f64(d * 1000)
-		//
-		// return '${(d * f64(1000)):.3f}'.f64()
-		//
 		mts := d * f64(1000)
 		return '${mts:.3f}'.f64()
 	}
